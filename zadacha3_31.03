@@ -1,0 +1,12 @@
+hours = float(input("Введите количество отработанных часов: "))
+credit_balance = float(input("Введите остаток по кредиту: "))
+food_money = float(input("Введите количество денег на еду: "))
+
+salary = hours * 10.0
+total_expenses = credit_balance + food_money
+
+if salary >= total_expenses:
+    print("Часов хватает. Можно отдохнуть.")
+    else:
+        print("Часов не хватает, придется работать!")
+        
